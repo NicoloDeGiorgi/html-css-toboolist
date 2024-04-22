@@ -1,7 +1,127 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #f6f8f9;
+    font-family: "Poppins", sans-serif;
 }
 
 header {
-    background-color: white;
+    background-color: #ffffff;
+    height: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.logo {
+    vertical-align: middle;
+}
+
+.title {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 70%;
+}
+
+.navigation {
+    padding: 25px 0px 15px 70px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 50px auto 3px;
+}
+
+.button {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.add-task {
+    background-color: #47adf1;
+    color: #000000;
+    border: 1px solid #47adf1;
+}
+
+.add-section {
+    color: #000000;
+    border: 1px solid #c5cbd0;
+}
+
+.tasks {
+    padding: 10px 0px 50px 70px;
+    margin: 0px auto 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.tasks h2 {
+    margin-top: 40px;
+}
+
+/* List checks and crosses */
+.symbol {
+    padding: 1px 6px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.check {
+    color: #64c0a9;
+    border: 2px solid #64c0a9;
+}
+
+.cross {
+    color: #ea4237;
+    border: 2px solid #ea4237;
+}
+
+/* Tasks titles */
+.tasks p {
+    margin-top: 30px;
+}
+
+.tags {
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 0.7rem;
+}
+
+.editorial {
+    background-color: #45abea;
+}
+
+.q1-goals {
+    background-color: #9c72e4;
+}
+
+.recruiting {
+    background-color: #64c0a9;
+}
+
+.mobile {
+    background-color: #f29e33;
+}
+
+.website {
+    background-color: #d863a1;
+}
+
+.sales {
+    background-color: #b0c926;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
 }

@@ -3,16 +3,127 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toboolist</title>
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
+    <!-- Header -->
     <header>
-        <img src="img/Toboolist-logo.jpg" alt="">
+        <img class="logo" src="img/Toboolist-logo.jpg" alt="Logo">
+        <h1 class="title">Toboolist</h1>
     </header>
+    <!-- /Header -->
 
+    <!-- Main -->
+    <main>
+        <!-- Navigation -->
+        <div class="container navigation">
+            <button class="button add-task">Add Task</button>
+            <button class="button add-section">Add Section</button>
+        </div>
+        <!-- /Navigation -->
+
+        <!-- List -->
+        <div class="container tasks">
+            <!-- "New Task" section-->
+            <section>
+                <h2>&#9660; New Task</h2>
+
+                <p>
+                    <span class="symbol check">&#10004;</span>
+                    Quarterly newsletter
+                    <span class="tags editorial">Editorial</span>
+                </p>
+            </section>
+            <!-- /"New Task" section -->
+
+            <!-- "Today" section -->
+            <section>
+                <h2>&#9660; Today</h2>
+
+                <ul>
+                    <li>
+                        <p>
+                            <span class="symbol check">&#10004;</span>
+                            Recruiting blog post
+                            <span class="tags editorial">Editorial</span>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <span class="symbol check">&#10004;</span>
+                            Mobile app launch
+                            <span class="tags q1-goals">Q1 Goals</span>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <span class="symbol cross">&#10008;</span>
+                            Interview John H.
+                            <span class="tags recruiting">Recruiting</span>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <span class="symbol check">&#10004;</span>
+                            Summit update to mobile storefronts
+                            <span class="tags mobile">Mobile</span>
+                        </p>
+                    </li>
+                </ul>
+            </section>
+            <!-- /"Today" section -->
+
+            <!-- "Upcoming" section -->
+            <section>
+                <h2>&#9660; Upcoming</h2>
+
+                <ul>
+                    <li>
+                        <p>
+                            <span class="symbol cross">&#10008;</span>
+                            Schedule meeting with Alex
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <span class="symbol check">&#10004;</span>
+                            Homepage refresh
+                            <span class="tags website">Website</span>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <span class="symbol check">&#10004;</span>
+                            Onboard new Sales team members
+                            <span class="tags sales">Sales</span>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <span class="symbol check">&#10004;</span>
+                            Review editorial calendar
+                            <span class="tags editorial">Editorial</span>
+                        </p>
+                    </li>
+                </ul>
+            </section>
+            <!-- /"Upcoming" section  -->
+
+        </div>
+        <!-- /List -->
+    </main>
+    <!-- /Main -->
 </body>
 
 </html>
